@@ -1,0 +1,24 @@
+/* Below CSS is used to make image responsive on web page */
+#image{
+        max-width: 100%;
+        display: block;
+        height: auto;
+}
+
+.header{
+   
+    text-align:center;
+}
+
+
+ #main{
+    padding-top:50px;
+    border : 1px solid gray;
+    position:relative;
+} 
+
+#contentbox{
+    border : 1px solid green;
+    border-radius : 10px;
+    margin:50px;
+}
