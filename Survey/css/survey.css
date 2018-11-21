@@ -1,0 +1,82 @@
+
+ #main{
+    padding-top:30px;
+    /* border : 1px solid gray; */
+    position:relative;
+} 
+
+#contentbox{
+    /* border : 1px solid gray; */
+    border: 1px solid #ccc;
+    border-radius : 15px;
+    margin:50px;
+    padding:50px;
+    background-color: rgba(45, 45, 45, 0.1);
+    /* background-color:#ccc; */
+}
+/* Below CSS is used to make image responsive on web page */
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.header{
+text-align:center;
+line-height:30px;
+}
+ 
+#img-div{
+    border : 1px solid ghostwhite;
+    padding : 20px;
+    background-color:white;
+}
+
+/* below uses flex box to align the cards */
+
+#tribute-info{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
+}
+@media screen and (min-width: 600px)
+{
+    #tribute-info{
+        display:flex;
+       flex-direction:row;
+    }
+    
+
+}
+
+/* Below uses responsive CSS grid */
+
+/* #tribute-info {
+    padding:20px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:"cardone cardtwo cardthree";
+}
+
+@media (max-width: 500px)
+{
+    #tribute-info{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:"cardone" "cardtwo" "cardthree";
+    }
+    
+
+} */
+
+#cardone, #cardtwo, #cardthree {
+    border: 1px solid #ccc;
+    background-color:white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    border-radius:10px;
+    margin:5px;
+}
+
