@@ -14,6 +14,20 @@
     background-color: rgba(45, 45, 45, 0.1);
     /* background-color:#ccc; */
 }
+
+article{
+    border : 1px solid #ccc;
+    background-color: cornsilk;
+    align-content: center;
+    
+}
+
+#main-content{
+    margin :50px;
+
+}
+
+
 /* Below CSS is used to make image responsive on web page */
 #image{
     max-width: 100%;
